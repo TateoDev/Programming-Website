@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap");
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(7, 10, 24);
+    margin: 0;
+    color:bisque;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+}
+p {
+    padding: 30px;
+    padding-top: 0px;
+    font-size: 25px;
+}
+hr {
+    background-color: rgb(206, 158, 25);
+    height: 30px;
+}
+.lang{
+    width: 200px;
+    height: 200px;
+}
+.lang_contain {
+    text-align: center;
+}
+.reference {
+    font-size: 10px;
+    margin: 0px;
+}
+.footnote {
+    font-size: 10px;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    
+    text-align: center;
+    position: absolute; 
+    bottom: 5px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+  }
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    box-shadow: 5px 10px 8px #080808;
+  }
+.navbar a {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+  
+.navbar a:hover {
+      background-color: #ddd;
+      color: black;
+  }
+.active {
+      background-color: rgb(206, 158, 25);
+  }
+
+::-webkit-scrollbar {   
+    width: 20px;
+}
+::-webkit-scrollbar {
+    box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(206, 158, 25);
+    border-radius: 10px;
+}
